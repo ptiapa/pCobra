@@ -1,0 +1,71 @@
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 1em;
+    border: 1em;
+    gap: 0.5em;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+.nosotros div{
+    align-self: center;
+}
+
+.nosotros h1{
+    margin: 1em;
+    border: 1em;
+}
+
+.nosotros p{
+    text-align: justify;
+    margin: 1em;
+    border: 1em;
+}
+
+.nosotros a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    padding:  0.5em 1em;
+    border: 0 1em;  
+    border-radius: 10px;
+}
+
+.nosotros a:hover{
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    
+}
+
+.imgn img{
+    align-content: center;
+    margin-left: 200px;
+}
+
+/*----------------Estilos pantalla--------------------------------*/
+
+@media screen and (max-width: 650px){
+
+   .nosotros{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    grid-template-columns: 1fr;
+   }
+
+   .nosotros div{
+    margin-top: 2em;
+    margin-bottom: 2em;
+   }
+
+   .imgn img{
+    margin-left: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+}
